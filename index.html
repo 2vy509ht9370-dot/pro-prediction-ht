@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRO PREDICTION HT</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0b1220;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #111c2e;
+      padding: 22px 16px;
+      text-align: center;
+      border-bottom: 2px solid #a3e635;
+    }
+    header h1 { color: #a3e635; margin: 0; }
+    header p { color: #cbd5e1; }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #172338;
+    }
+    nav a { color: white; text-decoration: none; }
+    main { padding: 20px; max-width: 800px; margin: auto; }
+    .welcome {
+      text-align: center;
+      padding: 25px 10px;
+    }
+    .welcome h2 { color: #a3e635; }
+    .card {
+      background: #172338;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 18px;
+      margin: 15px 0;
+    }
+    .tag {
+      color: #a3e635;
+      font-weight: bold;
+    }
+    button {
+      background: #a3e635;
+      color: #111827;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      color: #94a3b8;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚽ PRO PREDICTION HT</h1>
+    <p>Football Analytics & Predictions</p>
+  </header>
+
+  <nav>
+    <a href="#home">Accueil</a>
+    <a href="#matches">Matchs</a>
+    <a href="#about">À propos</a>
+  </nav>
+
+  <main>
+    <section class="welcome" id="home">
+      <h2>Bienvenue sur PRO PREDICTION HT</h2>
+      <p>Analyses footballistiques basées sur les statistiques.</p>
+      <span class="tag">100% FOOTBALL</span>
+    </section>
+
+    <section id="matches">
+      <h2>Nos services</h2>
+
+      <div class="card">
+        <h3>⚽ Prédictions 1X2</h3>
+        <p>Analyse des victoires, matchs nuls et défaites.</p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Over / Under</h3>
+        <p>Analyse des probabilités de buts.</p>
+      </div>
+
+      <div class="card">
+        <h3>🥅 BTTS</h3>
+        <p>Les deux équipes peuvent-elles marquer ?</p>
+      </div>
+
+      <div class="card">
+        <h3>👑 Espace VIP</h3>
+        <p>Section réservée aux analyses avancées.</p>
+        <button onclick="alert('Espace VIP bientôt disponible !')">
+          Découvrir VIP
+        </button>
+      </div>
+    </section>
+
+    <section class="card" id="about">
+      <h2>Notre engagement</h2>
+      <p>Nous privilégions les statistiques, la transparence et la vérification des résultats. Aucune prédiction n'est garantie.</p>
+    </section>
+  </main>
+
+  <footer>
+    PRO PREDICTION HT © 2026
+    <p>Analyse intelligente. Décisions responsables.</p>
+  </footer>
+</body>
+</html>
